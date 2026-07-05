@@ -3,18 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#050816" />
     <meta
       name="description"
-      content="Interaktywny Symulator Układu Słonecznego 3D dla dzieci, nauczycieli i miłośników astronomii."
+      content="Interaktywny Układ Słoneczny 3D po polsku: symulator planet, księżyców, orbit, tryb lekcji oraz quiz o planetach dla uczniów i nauczycieli."
     />
+    <link rel="canonical" href="https://uklad-sloneczny-zuzia-3b.netlify.app/" />
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='18' fill='%23ffb13b'/%3E%3Ccircle cx='32' cy='32' r='28' fill='none' stroke='%2356d7c5' stroke-width='4'/%3E%3C/svg%3E"
     />
-    <title>Interaktywny Symulator Układu Słonecznego 3D</title>
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Układ Słoneczny 3D" />
+    <meta property="og:title" content="Układ Słoneczny 3D - interaktywny symulator planet" />
+    <meta
+      property="og:description"
+      content="Poznaj planety i księżyce w interaktywnej scenie 3D. Zmieniaj tempo, śledź obiekty, korzystaj z lekcji i rozwiąż quiz astronomiczny."
+    />
+    <meta property="og:url" content="https://uklad-sloneczny-zuzia-3b.netlify.app/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Układ Słoneczny 3D - interaktywny symulator planet" />
+    <meta
+      name="twitter:description"
+      content="Polski projekt edukacyjny: model 3D Układu Słonecznego, planety, księżyce, orbity, lekcje i quiz."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["WebApplication", "LearningResource"],
+        "name": "Układ Słoneczny 3D",
+        "headline": "Interaktywny Układ Słoneczny 3D",
+        "url": "https://uklad-sloneczny-zuzia-3b.netlify.app/",
+        "inLanguage": "pl-PL",
+        "applicationCategory": "EducationalApplication",
+        "educationalUse": ["lekcja", "quiz", "wizualizacja"],
+        "learningResourceType": ["symulator", "model 3D", "quiz"],
+        "audience": {
+          "@type": "EducationalAudience",
+          "educationalRole": "student"
+        },
+        "about": [
+          "Układ Słoneczny",
+          "planety",
+          "księżyce",
+          "orbity",
+          "astronomia"
+        ],
+        "description": "Interaktywny symulator Układu Słonecznego 3D po polsku z planetami, księżycami, orbitami, trybem lekcji i quizem edukacyjnym."
+      }
+    </script>
+    <title>Układ Słoneczny 3D - interaktywny symulator planet i quiz</title>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      Interaktywny Układ Słoneczny 3D to polski projekt edukacyjny z modelem planet,
+      księżyców, orbit, trybem lekcji i quizem o astronomii. Do uruchomienia sceny 3D
+      potrzebna jest obsługa JavaScript.
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
